@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Cycle</title>
+    </head>
+    <body>
+        <h1>Age from 15 to 100</h1>
+        
+         <form>
+            <select>
+                <label>Age:
+                <?php for($age=15; $age<=100; $age++){
+                    echo "<option value={$age}>$age</option>";
+
+                    }?>
+                </label>
+            </select>
+        </form>
+    </body>
+</html>
